@@ -17,7 +17,7 @@ npm install --save-dev gulp-email
 for example, using mailgun.com
 
 ```javascript
-    var gulpEmail = require('gulp-email'),
+    var email = require('gulp-email'),
         options = {
             user: 'api:key-564dfgfead753fghef11c54c1fb',
         	url: 'https://api.mailgun.net/v2/sandbox0fe54675eff6624145da45.mailgun.org/messages',
