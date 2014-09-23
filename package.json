@@ -1,0 +1,39 @@
+{
+  "name": "gulp-email",
+  "version": "0.0.1",
+  "description": "A gulp plugin for send emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jansanchez/gulp-email.git"
+  },
+  "keywords": [
+    "gulpfriendly",
+    "gulpplugin",
+    "gulp",
+    "email",
+    "mailgun",
+    "attach"
+  ],
+  "author": "Jan Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jansanchez/gulp-email/issues"
+  },
+  "homepage": "https://github.com/jansanchez/gulp-email",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "should": "~4.0.4",
+    "gulp": "~3.8.7",
+    "gulp-complexity": "~0.2.1",
+    "gulp-jshint": "~1.8.4",
+    "jshint-stylish": "~0.4.0",
+    "gulp-rimraf": "^0.1.0"
+  },
+  "dependencies": {
+    "vinyl": "~0.3.2"
+  }
+}
