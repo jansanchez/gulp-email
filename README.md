@@ -34,7 +34,7 @@ Sending an email like report HTML and attaching a file.
     };
 
     gulp.task('email', function () {
-        return gulp.src(['./demo/html/report.html'])
+        return gulp.src(['./demo/reports/*.html'])
             .pipe(email(options, function(data, error){
                 console.log(data.message);
             }));
@@ -65,12 +65,13 @@ Sending an email without the content of a stream.
         };
 
     gulp.task('email', function () {
-        return gulp.src(['./demo/html/no-matter.html'])
+        return gulp.src(['./demo/no-matter.html'])
             .pipe(email(options));
     });
 ```
 
-For these examples I am using the api mailgun.com(I recommend).
+For these examples I am using the API of mailgun.com(I recommend). In this first release only supports [mailgun API](http://documentation.mailgun.com/api-sending.html#sending "mailgun API") and is more than enough.
+
 
 
 [npm-url]: https://www.npmjs.org/package/gulp-email
