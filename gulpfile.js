@@ -38,8 +38,8 @@ gulp.task('complexity', function(){
 var email = require('./index');
 
 var options = {
-	user: 'api:key-bfc71afead753d73cef11c5485c1fd2b',
-	url: 'https://api.mailgun.net/v2/sandbox4a0fe54c0059454483eff6624145da45.mailgun.org/messages',
+	user: 'api:key-bfc71afeef11c5485c1fd2b',
+	url: 'https://api.mailgun.net/v2/sandbox6624145da45.mailgun.org/messages',
 	form: {
 		from: 'Jamir Kaleb <jamir.kaleb@gmail.com>',
 		to: 'Jan Sanchez Hotmail <joejansanchez@hotmail.com>',
