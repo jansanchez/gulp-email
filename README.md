@@ -35,9 +35,7 @@ Sending an email like report HTML and attaching a file.
 
     gulp.task('email', function () {
         return gulp.src(['./demo/reports/*.html'])
-            .pipe(email(options, function(data, error){
-                console.log(data.message);
-            }));
+            .pipe(email(options));
     });
 ```
 
