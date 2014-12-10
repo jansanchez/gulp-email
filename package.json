@@ -1,6 +1,6 @@
 {
   "name": "gulp-email",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A gulp plugin to send emails with or without attachments from a stream of html.",
   "main": "index.js",
   "scripts": {
