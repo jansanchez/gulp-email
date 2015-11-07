@@ -45,9 +45,6 @@ var options = {
 		to: 'Jan Sanchez Hotmail <joejansanchez@hotmail.com>',
 		subject: 'Nuevo mensaje de correo !!!',
 		text: 'Texto plano del mensaje, esto se ve?'
-	},
-	form_string: {
-		html: '<html>Version html del mensaje</html>'
 	}
 };
 
